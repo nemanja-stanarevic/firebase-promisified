@@ -12,9 +12,9 @@ module.exports = function(Firebase, Promise, Rx) {
           observer.onNext(snap);
         };
       } else {
-        return function(snap, prevName) {
+        return function(snap, previousChildKey) {
           // Wrap into an object, since we can only pass one argument through
-          observer.onNext({snapshot: snap, prevName: prevName});
+          observer.onNext({snapshot: snap, previousChildKey: previousChildKey});
         };
       }
     };

@@ -2,7 +2,7 @@
   "name": "firebase-promisified",
   "version": "0.0.1",
   "description": "Promisifies and Rx-ifies Firebase prototype (ES6)",
-  "main": "firebase-promisify.js",
+  "main": "dist/firebase-promisified.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
