@@ -1,0 +1,11 @@
+{
+  "env": {
+    "node": true
+  },
+
+  "rules": {
+    "quotes": [2, "single", "avoid-escape"],
+    "no-mixed-requires": [1],
+    "comma-spacing": [1, {"before": false, "after": true}]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "firebase-promisified",
+  "version": "0.0.1",
+  "description": "Promisifies and Rx-ifies Firebase prototype (ES6)",
+  "main": "firebase-promisify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemanja-stanarevic/firebase-promisified.git"
+  },
+  "keywords": [
+    "Firebase",
+    "Promise",
+    "RxJS",
+    "ES6"
+  ],
+  "author": "Nemanja Stanarevic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nemanja-stanarevic/firebase-promisified/issues"
+  },
+  "homepage": "https://github.com/nemanja-stanarevic/firebase-promisified#readme",
+  "devDependencies": {
+    "eslint": "^0.22.1"
+  }
+}
