@@ -1,8 +1,8 @@
-# firebase-promisify
+# firebase-promisified
 Firebase with Promises and RxJS
 
 ## Motivation
-Firebase is awesome, but callbacks suck. hard. This simple function adds to the
+Firebase is awesome, but callbacks suck. hard. This simple module adds to the
 Firebase prototype so that you can write code like this:
 
 ```javascript
@@ -62,10 +62,10 @@ Pull requests are welcome.
 
 First, install the package with npm:
 ```
-npm install firebase-promisify --save
+npm install firebase-promisified --save
 ```
 
-Then, simply require firebase-promisify and invoke it after Firebase and
+Then, simply require firebase-promisified and invoke it after Firebase and
 optionally Rx are in scope. You can then export a Firebase instance and use
 this module elsewhere in your code.
 
@@ -74,9 +74,10 @@ this module elsewhere in your code.
 
 const Firebase = require('firebase');
 const Rx = require('rx');
+const firebasePromisified = require('firebase-promisified');
 
 // adds Rx and Promises to the Firebase prototype
-require('../../common/lib/firebase-extensions')(Firebase, Promise, Rx);
+firebasePromisified(Firebase, Promise, Rx);
 
 module.exports = new Firebase('your firebase url');
 ```
